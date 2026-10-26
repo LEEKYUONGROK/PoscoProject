@@ -1,0 +1,10 @@
+{
+  "task": "Korean RCAEval field order and the 20 project glossary terms",
+  "reference_policy": "Deterministic Korean rendering of the existing synthetic references; not human-reviewed",
+  "counts": {
+    "train": 60,
+    "validation": 15,
+    "test": 15
+  },
+  "system_prompt": "edge_bridge/korean_rcaeval.py:SYSTEM"
+}

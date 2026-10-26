@@ -1,0 +1,19 @@
+syntax = "proto3";
+package Protocol;
+option csharp_namespace = "Google.Protobuf.Protocol";
+enum MsgId {
+  SENSOR_MSG = 0;
+  SENSORS_MSG = 1;
+  CLIENT_COMMAND = 2;
+  CLIENT_REQUEST = 3;
+  CLIENT_BRODCAST = 4;
+  SENSOR_INPO = 5;
+  SENSOR_INPOS = 6;
+  SENSOR_INPO_REQUEST = 7;
+  ADD_SENSOR = 8;
+  OBJ_POS = 9;
+  REPORT = 10;
+}
+message Report { string Content = 1; }
+message SensorMsg { int32 sensorID = 1; string msg = 2; }
+message SensorsMsg { repeated SensorMsg info = 1; }

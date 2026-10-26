@@ -1,0 +1,8 @@
+{
+  "event_id": "demo-001",
+  "device_id": "conveyor-01",
+  "timestamp": "2026-10-07T10:00:00Z",
+  "event_type": "fire_alert",
+  "confidence": 0.92,
+  "metadata": {"synthetic": true}
+}

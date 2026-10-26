@@ -1,0 +1,17 @@
+{
+  "task": "Korean RCAEval fields plus live alarm hypotheses and 20 glossary terms",
+  "base": "llm/finetuning/data/korean",
+  "live_examples": [
+    "live_alarm0_temp",
+    "live_alarm1_temp",
+    "live_alarm2_flame",
+    "live_alarm0_flicker",
+    "live_alarm1_notemp",
+    "live_alarm2_notemp",
+    "live_unsupported"
+  ],
+  "counts": {
+    "train": 90,
+    "validation": 16
+  }
+}

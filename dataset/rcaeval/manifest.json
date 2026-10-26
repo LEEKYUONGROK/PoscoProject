@@ -1,0 +1,51 @@
+{
+  "repository": "phamquiluan/RCAEval",
+  "revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "seed": 42,
+  "task": "External-label-conditioned reporting, not independent root cause analysis",
+  "reference_policy": "Deterministic synthetic templates from external annotation and real metric statistics; not human-reviewed reports",
+  "suite": "RE2-OB",
+  "normal_cases": 0,
+  "groups": {
+    "productcatalogservice/delay": "train",
+    "emailservice/disk": "train",
+    "currencyservice/mem": "train",
+    "recommendationservice/disk": "train",
+    "productcatalogservice/mem": "train",
+    "currencyservice/cpu": "train",
+    "checkoutservice/socket": "train",
+    "emailservice/cpu": "train",
+    "currencyservice/socket": "train",
+    "emailservice/loss": "train",
+    "currencyservice/loss": "train",
+    "recommendationservice/delay": "train",
+    "recommendationservice/socket": "train",
+    "productcatalogservice/loss": "train",
+    "emailservice/mem": "train",
+    "recommendationservice/loss": "train",
+    "checkoutservice/delay": "train",
+    "emailservice/delay": "train",
+    "productcatalogservice/cpu": "train",
+    "checkoutservice/disk": "train",
+    "emailservice/socket": "validation",
+    "recommendationservice/mem": "validation",
+    "checkoutservice/mem": "validation",
+    "recommendationservice/cpu": "validation",
+    "currencyservice/delay": "validation",
+    "currencyservice/disk": "test",
+    "productcatalogservice/socket": "test",
+    "checkoutservice/cpu": "test",
+    "checkoutservice/loss": "test",
+    "productcatalogservice/disk": "test"
+  },
+  "counts": {
+    "train": 60,
+    "validation": 15,
+    "test": 15
+  },
+  "sha256": {
+    "train": "7cb374b6cea60b4c028a2c0ed337d7b99d48ea03acfe8ee01e2b714a1cb2c539",
+    "validation": "76a8f48fa9135b8f8a61b918acb34121deea29eda810bbf237d0fb1dc074ee90",
+    "test": "ed4b7834fefbf838e45fd9a21d8763a7be5a9f534f74ac00f3e548463ad4d74b"
+  }
+}
